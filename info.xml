@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<extension key="com.octopus8.sortactivitydatedesc" type="module">
+  <file>sortactivitydatedesc</file>
+  <name>Octopus8 Sort Activities Date DESC</name>
+  <description>Sort all the activities by date in DESC order. (By Default) </description>
+  <license>AGPL-3.0</license>
+  <authors>
+    <author>
+      <name>Su</name>
+      <email>sumyat@octopus8.com</email>
+      <role>Maintainer</role>
+    </author>
+  </authors>
+  <urls>
+    <url desc="Main Extension Page">http://octopus8.com</url>
+    <url desc="Documentation">http://octopus8.com</url>
+    <url desc="Support">http://octopus8.com</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2024-07-25</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.74</ver>
+  </compatibility>
+  <comments>This extension allows the user to sort the activities by date in DESC order as a default.</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Sortactivitydatedesc</namespace>
+    <format>23.02.1</format>
+    <angularModule>crmSortactivitydatedesc</angularModule>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty@1.0.0</mixin>
+  </mixins>
+</extension>
